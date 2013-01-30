@@ -28,10 +28,17 @@ Installatie
 
 Download: http://git-scm.com/download
 
+We gaan Git alleen op de command prompt/terminal gebruiken. Er zijn ook onofficiele GUI's maar die verschillen per besturingssysteem.
+
+We gaan eerst wat instellingen van Git veranderen
+
     git config --global color.ui auto
+    
     git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
 
--
+De eerste regel voegt kleurtjes toe aan de output van elke command. Met de tweede regel voegen we een commando toe die we later gaan gebruiken
+
+We moeten ook nog aangeven wie we zijn zodat we later kunnen zien wie welke commit heeft gemaakt. Vul je eigen naam in in onderstaande commando's en voer ze uit.
 
     git config --global user.name "John Doe"
     git config --global user.email johndoe@example.com
