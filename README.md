@@ -45,12 +45,45 @@ We moeten ook nog aangeven wie we zijn zodat we later kunnen zien wie welke comm
 
 Mijn eerste Git repository
 -----------
-
+Ga met de terminal naar een project wat je nog niet onder versie beheer hebt staan en typ:
 
     git init
 
+Het project staat nu onder versie beheer! Ok… Wat? Het enige wat veranderd is is dat er een nieuwe directory is bij gekomen met de naam '.git'.
 
-Committen & Branchen
+De .git map is de _repository_. Alle versies die we vanaf nu gaan maken komen in deze directory te staan. Laten we meteen een eerste versie committen!
+
+Voordat je commit moet je eerst aangeven _wat_ je wilt committen. Laten we maar aangeven dat we alles willen committen:
+
+    git add .
+    git commit
+
+Er komt nu automatisch een editor waarin je een berichtje kan opgeven wat je gewijzigd hebt. Nadat je hier wat hebt ingevuld is je eerste commit een feit.
+
+Laten we kijken naar de commit die we net hebben gemaakt:
+
+    git log
+
+Voor elke commit worden een aantal dingen opgeslagen: De **auteur** (die we bij de installatie hebben aangegeven), de **datum** waarop de commit is gebeurd, een **bericht** die de auteur moet typen met een samenvatting wat er gewijzigd en een lange **hash**. De hash is een unieke identifier voor de commit waarmee we altijd terug kunnen naar deze versie.
+
+Als we willen weten wat we hebben gewijzigd sinds de laatste commit kunnen we status gebruiken:
+
+    git status
+
+Maak een paar wijzingen aan het project en bekijk met git status wat je gewijzigd hebt. Als je voor elk bestand wilt zien wat er gewijzigd is gebruik je
+
+    git diff
+
+Het is ook mogelijk om maar een gedeelte van de wijzigingen die je gemaakt hebt te committen.
+
+    git add -p
+    git commit
+    
+Git vraagt dan voor elke verandering of je die wel of niet wilt committen.
+
+Oefen nog even met bovenstaande commando's en maak nog een paar extra commits.
+
+Branchen
 -----------
 
     git add .
