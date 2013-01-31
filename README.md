@@ -33,8 +33,11 @@ We gaan Git alleen op de command prompt/terminal gebruiken. Er zijn ook onoffici
 We gaan eerst wat instellingen van Git veranderen
 
     git config --global color.ui auto
+    git config --global core.editor nano
     
     git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+    
+    
 
 De eerste regel voegt kleurtjes toe aan de output van elke command. Met de tweede regel voegen we een commando toe die we later gaan gebruiken
 
