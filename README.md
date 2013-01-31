@@ -11,7 +11,7 @@ Versie beheer systeem
 -----------
 Waarom zou je een versie beheer systeem willen gebruiken? Als je lang genoeg aan een project werkt maak je fouten en die zijn er niet altijd gemakkelijk weer uit te halen zijn. Het is dus handig om elke keer als we een versie hebben die _wel_ werkt om dit te kunnen op te slaan. Dat kunnen we natuurlijk doen door elke keer een kopie van het project te maken, maar dat resulteert al snel in een chaos van mapjes.
 
-![Alt text](project-chaos.png)
+![Alt text](https://raw.github.com/PaulWagener/Git-Workshop/master/project-chaos.png)
 
 Dat moet makkelijker kunnen!
 
