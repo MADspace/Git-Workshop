@@ -117,7 +117,7 @@ Zoals je in vorige hoofdstuk hebt gezien staat de repository lokaal op je comput
 
 Deze workshop die je nu aan het lezen bent staat in een online git repository. Iedereen kan deze repository via git kopiëren naar zijn eigen computer. Dit doen we met het clone commando:
 
-    git clone git@github.com:PaulWagener/Git-Workshop.git ~/workshop
+    git clone https://github.com/PaulWagener/Git-Workshop.git ~/workshop
 
 Hiermee kopieer je het project naar de workshop folder in je home ­directory. Kijk met het log commando welke wijzigingen er al aan het project zijn gebeurd.
 
