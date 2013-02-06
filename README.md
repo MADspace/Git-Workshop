@@ -83,12 +83,14 @@ Git vraagt dan voor elke verandering of je die wel of niet wilt committen.
 
 Oefen nog even met bovenstaande commando's en maak nog een paar extra commits.
 
-Branchen
+Synchroniseren met team leden
 -----------
 
-    git add .
-    git commit
+Zoals je in vorige hoofdstuk hebt gezien staat de repository lokaal op je computer in een .git directory. Alle commits, bestanden en historie staan allemaal lokaal opgeslagen. Toch is het makkelijk om samen met andere mensen aan hetzelfde project te werken.
 
-Concepten
------------
-SHA1
+Deze workshop die je nu aan het lezen bent staat in een online git repository. Iedereen kan deze repository via git kopiëren naar zijn eigen computer. Dit doen we met het clone commando:
+
+    git clone git@github.com:PaulWagener/Git-Workshop.git ~/workshop
+
+Hiermee kopieer je het project naar de workshop folder in je home ­directory. Ik heb in dit project een verschrikkelijke spelfaut zitten. Probeer deze te vinden, te verbeteren en te committen.
+
