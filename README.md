@@ -11,7 +11,7 @@ Versie beheer systeem
 -----------
 Waarom zou je een versie beheer systeem willen gebruiken? Als je lang genoeg aan een project werkt maak je fouten en die zijn er niet altijd gemakkelijk weer uit te halen zijn. Het is dus handig om elke keer als we een versie hebben die _wel_ werkt om dit te kunnen op te slaan. Dat kunnen we natuurlijk doen door elke keer een kopie van het project te maken, maar dat resulteert al snel in een chaos van mapjes.
 
-![Alt text](project-chaos.png)
+![Alt text](https://raw.github.com/PaulWagener/Git-Workshop/master/project-chaos.png)
 
 Dat moet makkelijker kunnen!
 
@@ -33,8 +33,11 @@ We gaan Git alleen op de command prompt/terminal gebruiken. Er zijn ook onoffici
 We gaan eerst wat instellingen van Git veranderen
 
     git config --global color.ui auto
+    git config --global core.editor nano
     
     git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+    
+    
 
 De eerste regel voegt kleurtjes toe aan de output van elke command. Met de tweede regel voegen we een commando toe die we later gaan gebruiken
 
@@ -102,4 +105,3 @@ Merk op dat je geen speciale rechten nodig hebt om te mogen committen! Je commit
 Nu pas zal git klagen dat je geen toegang hebt tot het project.
 
 Branchen en mergen
------------
