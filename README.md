@@ -11,7 +11,7 @@ Versie beheer systeem
 -----------
 Waarom zou je een versie beheer systeem willen gebruiken? Als je lang genoeg aan een project werkt maak je fouten en die zijn er niet altijd gemakkelijk weer uit te halen zijn. Het is dus handig om elke keer als we een versie hebben die _wel_ werkt om dit te kunnen op te slaan. Dat kunnen we natuurlijk doen door elke keer een kopie van het project te maken, maar dat resulteert al snel in een chaos van mapjes.
 
-![Alt text](https://raw.github.com/PaulWagener/Git-Workshop/master/project-chaos.png)
+![Alt text](project-chaos.png)
 
 Dat moet makkelijker kunnen!
 
@@ -33,11 +33,8 @@ We gaan Git alleen op de command prompt/terminal gebruiken. Er zijn ook onoffici
 We gaan eerst wat instellingen van Git veranderen
 
     git config --global color.ui auto
-    git config --global core.editor nano
     
     git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
-    
-    
 
 De eerste regel voegt kleurtjes toe aan de output van elke command. Met de tweede regel voegen we een commando toe die we later gaan gebruiken
 
@@ -102,6 +99,30 @@ Merk op dat je geen speciale rechten nodig hebt om te mogen committen! Je commit
 
     git push
 
-Nu pas zal git klagen dat je geen toegang hebt tot het project.
+Nu pas zal git klagen dat je geen toegang hebt tot het project. Maar voordat we gaan pushen moeten we eerst weten hoe we
 
 Branchen en mergen
+-----------
+Stel, je bent bezig aan een uitgebreide nieuwe feature voor een website, je hebt al wat commits gemaakt en plotseling komt de baas langs. Er zit een fout op de website en die moet je NU oplossen! Dan zou het handig zijn om al je werk aan de nieuwe feature tijdelijk aan de kant te kunnen zetten om aan een fix te werken. Zodra de fix klaar is commit je die en ga je weer verder met je nieuwe feature.
+
+Een branch is een soort van zijspoor waar je een nieuwe feature ontwikkelen of een idee kunt uitproberen. Je kunt in een branch vrij committen. En zodra de feature klaar is merge je hem met de hoofdbranch. En als de feature een slecht idee was gooi je de hele branch weg en hoef je er nooit meer naar te kijken.
+
+Ga naar je project en bekijk alle branches die op het moment in je project aanwezig zijn:
+
+    git branch
+
+Git maakt standaard een branch voor je aan genaamd 'master', deze wordt in projecten vaak gebruikt als de hoofdbranch. Het sterretje laat zien wat de huidige branch is. Laten we een nieuwe branch aanmaken:
+
+    git branch mijn-eerste-branch
+
+We kunnen nu wisselen naar deze branch met het checkout commando:
+
+    git checkout mijn-eerste-branch
+
+Maak een paar commits en schakel terug naar de master branch:
+    
+    git checkout master
+
+Maak hier ook een paar commits.     
+
+![Alt text](branch.png)
