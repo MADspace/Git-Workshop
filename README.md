@@ -100,3 +100,6 @@ Merk op dat je geen speciale rechten nodig hebt om te mogen committen! Je commit
     git push
 
 Nu pas zal git klagen dat je geen toegang hebt tot het project.
+
+Branchen en mergen
+-----------
