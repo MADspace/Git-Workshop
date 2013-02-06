@@ -83,23 +83,6 @@ Git vraagt dan voor elke verandering of je die wel of niet wilt committen.
 
 Oefen nog even met bovenstaande commando's en maak nog een paar extra commits.
 
-Synchroniseren met team leden
------------
-
-Zoals je in vorige hoofdstuk hebt gezien staat de repository lokaal op je computer in een .git directory. Alle commits, bestanden en historie staan allemaal lokaal opgeslagen. Toch is het makkelijk om samen met andere mensen aan hetzelfde project te werken.
-
-Deze workshop die je nu aan het lezen bent staat in een online git repository. Iedereen kan deze repository via git kopiëren naar zijn eigen computer. Dit doen we met het clone commando:
-
-    git clone git@github.com:PaulWagener/Git-Workshop.git ~/workshop
-
-Hiermee kopieer je het project naar de workshop folder in je home ­directory. Kijk met het log commando welke wijzigingen er al aan het project zijn gebeurd.
-
-Ik heb in dit project een verschrikkelijke spelfaut zitten. Probeer deze te vinden, te verbeteren en te committen.
-Merk op dat je geen speciale rechten nodig hebt om te mogen committen! Je commit is alleen lokaal opgeslagen en nog niet verstuurd naar de server. Om alle wat je commit hebt te versturen gebruik je push:
-
-    git push
-
-Nu pas zal git klagen dat je geen toegang hebt tot het project. Maar voordat we gaan pushen moeten we eerst weten hoe we
 
 Branchen en mergen
 -----------
@@ -126,3 +109,21 @@ Maak een paar commits en schakel terug naar de master branch:
 Maak hier ook een paar commits.     
 
 ![Alt text](branch.png)
+
+Synchroniseren met team leden
+-----------
+
+Zoals je in vorige hoofdstuk hebt gezien staat de repository lokaal op je computer in een .git directory. Alle commits, bestanden en historie staan allemaal lokaal opgeslagen. Toch is het makkelijk om samen met andere mensen aan hetzelfde project te werken.
+
+Deze workshop die je nu aan het lezen bent staat in een online git repository. Iedereen kan deze repository via git kopiëren naar zijn eigen computer. Dit doen we met het clone commando:
+
+    git clone git@github.com:PaulWagener/Git-Workshop.git ~/workshop
+
+Hiermee kopieer je het project naar de workshop folder in je home ­directory. Kijk met het log commando welke wijzigingen er al aan het project zijn gebeurd.
+
+Ik heb in dit project een verschrikkelijke spelfaut zitten. Probeer deze te vinden, te verbeteren en te committen.
+Merk op dat je geen speciale rechten nodig hebt om te mogen committen! Je commit is alleen lokaal opgeslagen en nog niet verstuurd naar de server. Om alle wat je commit hebt te versturen gebruik je push:
+
+    git push
+
+Nu pas zal git klagen dat je geen toegang hebt tot het project.
