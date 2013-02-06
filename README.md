@@ -70,7 +70,7 @@ Als we willen weten wat we hebben gewijzigd sinds de laatste commit kunnen we st
 
     git status
 
-Maak een paar wijzingen aan het project en bekijk met git status wat je gewijzigd hebt. Als je voor elk bestand wilt zien wat er gewijzigd is gebruik je
+Maak een paar wijzigingen aan het project en bekijk met git status wat je gewijzigd hebt. Als je voor elk bestand wilt zien wat er gewijzigd is gebruik je
 
     git diff
 
