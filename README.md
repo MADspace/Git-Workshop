@@ -1,9 +1,9 @@
-Git Workshop
+﻿Git Workshop
 ============
 Door: Paul Wagener
 
 Deelnemers:
-
+Michiel Buddingh
 
 
 
@@ -121,7 +121,7 @@ Deze workshop die je nu aan het lezen bent staat in een online git repository. I
 
 Hiermee kopieer je het project naar de workshop folder in je home ­directory. Kijk met het log commando welke wijzigingen er al aan het project zijn gebeurd.
 
-Ik heb in dit project een verschrikkelijke spelfaut zitten. Probeer deze te vinden, te verbeteren en te committen.
+Ik heb in dit project een verschrikkelijke https://github.com/PaulWagener/Git-Workshop.git Zpelfout zitten. Probeer deze te vinden, te verbeteren en te committen.
 Merk op dat je geen speciale rechten nodig hebt om te mogen committen! Je commit is alleen lokaal opgeslagen en nog niet verstuurd naar de server. Om alle wat je commit hebt te versturen gebruik je push:
 
     git push
