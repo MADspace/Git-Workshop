@@ -2,7 +2,7 @@
 ============
 Door: Paul Wagener
 
-Deelnemers:
+Deelnemers: Bart van Lierop (bvanlierop)
 
 
 
